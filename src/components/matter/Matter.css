@@ -1,0 +1,149 @@
+.planets_section2 {
+  height: 900px;
+  background-image: linear-gradient(#6a9090, rgb(1, 19, 27));
+  margin-top: 10px;
+}
+
+.tabButtons2 {
+  margin-bottom: 80px;
+  margin-top: 100px;
+  display: inline-flex;
+}
+
+.tabButtons2 button {
+  font-size: 20px;
+  padding: 10px 16px;
+  margin: 20px 20px;
+  border-radius: 8px;
+  background-image: linear-gradient(#2f2f4a, rgb(116, 36, 53)); 
+  color: White;
+  transition: all 0.25s;
+  cursor: pointer;
+  width: 220px;
+}
+
+.tabButtons2 button:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23), inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
+}
+
+.main2 {
+  display: flex;
+  justify-content: center;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+.planet {
+  width: 400px;
+  height: 500px;
+  border-radius: 30px;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  /* animation: planetEntrance 30s; */
+  animation: planetEntrance 50s linear infinite;
+}
+
+@keyframes planetEntrance {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes planetEntrance {
+  0% { -webkit-transform: rotate(0deg);
+       opacity: 0;
+     }
+  100% { -webkit-transform: rotate(360deg); 
+          opacity: 1;}
+  }
+
+  @keyframes planetEntrance {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotateY(360deg); }
+  }
+
+
+.descriptions {
+  width: 500px;
+  margin-left: 50px;
+  overflow-x: hidden;
+}
+
+.description_title {
+  font-size: 32px;
+  color: White;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 0px;
+  text-align: left;
+  font-weight: bold;
+  animation: titleEntrance 1s;
+}
+
+@keyframes titleEntrance {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.description_list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.description_list li {
+  padding: 5px 0px 5px 35px;
+  text-align: justify;
+  font-size: 15px;
+  color: white;
+  opacity: 1;
+  animation: textEntrance 1s ease-out;
+  animation-fill-mode: backwards;
+}
+
+.description_list li:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.description_list li:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.description_list li:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.description_list li:nth-child(4) {
+  animation-delay: 0.6s;
+}
+.description_list li:nth-child(5) {
+  animation-delay: 0.8s;
+}
+
+@keyframes textEntrance {
+  0% {
+    transform: translatex(350px);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translatex(40px);
+  }
+
+  100% {
+    transform: translatex(0);
+    opacity: 1;
+  }
+}
+
+.description_list li:last-child {
+  border-bottom: none;
+}
