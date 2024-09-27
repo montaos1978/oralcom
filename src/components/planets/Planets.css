@@ -9,6 +9,7 @@
   margin-top: 100px;
   display: inline-flex;
   
+  
 }
 
 .tabButtons button {
@@ -19,8 +20,7 @@
   color: White;
   transition: all 0.25s;
   cursor: pointer;
-  width: 150px;
-}
+  }
 .tabButtons button:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23), inset 0 0 100px 100px rgba(255, 255, 255, 0.3);
 }
@@ -33,7 +33,7 @@
 }
 
 .planet {
-  width: 400px;
+  width: 300px;
   height: 500px;
   border-radius: 30px;
   /* animation: name duration timing-function delay iteration-count direction fill-mode; */
@@ -71,6 +71,7 @@
   overflow-x: hidden;
   text-align: justify;
   justify-content: justify;
+  font-size: 16px;
 }
 
 .description_title {

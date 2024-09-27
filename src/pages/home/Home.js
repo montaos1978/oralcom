@@ -1,10 +1,12 @@
-import Banner from '../../components/banner/Banner';
+
 import Banner2 from '../../components/banner2/Banner2';
 import Planets from '../../components/planets/Planets';
 import Mixture from '../../components/mixture/Mixture';
 import Matter from '../../components/matter/Matter';
 import Planet1 from '../../components/planet1/Planet1';
-import SalaryCalculator from '../../components/salaryCalculator/SalaryCalculator';
+import Footer from '../../components/footer/Footer';
+
+
 
 
 export default function Home() {
@@ -17,9 +19,12 @@ export default function Home() {
       <Matter/>
       <Planet1/>
       
+      
+      
     </>
   );
 }
 
 //<Banner />
 //<SalaryCalculator/>
+//<Footer/>

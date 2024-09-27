@@ -19,7 +19,7 @@
   color: White;
   transition: all 0.25s;
   cursor: pointer;
-  width: 220px;
+  width: 180px;
 }
 
 .tabButtons2 button:hover {
@@ -34,7 +34,7 @@
 }
 
 .planet {
-  width: 400px;
+  width: 300px;
   height: 500px;
   border-radius: 30px;
   /* animation: name duration timing-function delay iteration-count direction fill-mode; */
@@ -70,6 +70,7 @@
   width: 500px;
   margin-left: 50px;
   overflow-x: hidden;
+  font-size: 16px;
 }
 
 .description_title {

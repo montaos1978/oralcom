@@ -9,15 +9,15 @@
 }
 
 .tabButtons button {
-  font-size: 32px;
+  font-size: 24px;
   padding: 10px 16px;
-  margin: 15px 15px;
+  margin: 15px 8px;
   border-radius: 8px;
   background-color: rgb(61, 112, 138);
   color: #ffffff;
   transition: all 0.25s;
   cursor: pointer;
-  width: 250px;
+  width: 180px;
 }
 
 .tabButtons button:hover {
@@ -30,7 +30,7 @@
 }
 
 .planet {
-  width: 600px;
+  width: 450px;
   border-radius: 100px;
   /* animation: name duration timing-function delay iteration-count direction fill-mode; */
   /* animation: planetEntrance 30s; */
@@ -71,9 +71,10 @@
 
 
 .descriptions {
-  width: 2500px;
+  width: 600px;
   margin-left: 1px;
   overflow-x: hidden;
+  font-size: 16px;
 }
 
 .description_title {

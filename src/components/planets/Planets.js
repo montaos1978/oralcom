@@ -56,15 +56,7 @@ export default function Planets() {
                 <li>Anaximenes believed that all things get energy from air. He also invented
  a theory called anaximenes’ theory where the matter changes due to
  rarefaction and condensation.</li>
-                <li> Empedocles believed that the four elements and unchanging kind of
-                matter made everything.</li>
-                <li>Aristotle believed that the balance of substances were from the four
- elements; water, air, fire, and earth, in an infinite way. This combination
- gives a proportion of essential qualities. The changes from the four
- elements were brought to the transformation of the universe.</li>
-                <li>Ancient Romans' contributions were minimal compared to ancient Greek,while
- their contribution in crafting is larger. Therefore the history of chemistry is based
- on their trial and error in the other hand we are tied to theological beliefs.</li>
+                
               </ul>
             </div>
           </>
@@ -104,9 +96,7 @@ export default function Planets() {
  Heaven’. They mastered working with copper, silver, and gold where they were
  able to produce things like gold masks, copper-alloyed 23 karat gold, with quartz
  and obsidian eyes and lapis lazuli.</li>
-                <li>Organic materials and substances were used for mummification like both animal
- and plant origins. Around 6000 years ago is when they started using natural
- products for full-body preservation.</li>
+                
                 
               </ul>
             </div>
@@ -132,10 +122,8 @@ export default function Planets() {
  Ahichchhatra and Kopia in Uttar Pradesh, Nalanda in Bihar, Ujjain in Madhya
  Pradesh, Nasik and Nevasa in Maharashtra, Brahmagiri in Karnataka, and
  Arikamedu at Puducherry. </li>
- <li> Vedas a Hindu sacred scriptures and the oldest writing system in India that
- contains evidence from ancient China </li>
- <li>Tantrism is a writing system in India
- that is alchemical. </li>
+ 
+ 
               </ul>
             </div>
           </>
@@ -159,11 +147,7 @@ export default function Planets() {
  were the matters in the universe. They believed that these elements restrain and
  promote each other. Like water restrains fire, fire restrains metal, metal restrains
  wood, and wood restrains fire; and wood promotes fire, fire promotes earth, earth
- promotes metal, metal promotes water, water promotes wood. Which they call
- the Theory of Mutual Promotion and Restrain. Astronomy, geography, calendars,
- physics, medicine, pharmacy, and chemistry were developed from the Theory of
- Five Elements and the theory of Ying and Yang. These theories improved the
- development of Chinese from music, architecture, art, and culture.</li>
+ promotes metal, metal promotes water, water promotes wood. </li>
                 
               </ul>
             </div>
@@ -177,7 +161,7 @@ export default function Planets() {
                 <li>In ancient Greece, there's been types of matter known for 2000 years, which are fire, air, water, and earth. This type of matter was said by Aristotle. </li>
                 <li>Lavoisier and his wife, and some scientists that believed in the work of Lavoisier, started an experiment to find more elements. This search helped them with 55 elements. He was also able to name these 55 elements in a systematic way. </li>
                 <li>In 1660’s, an Irish philosopher, chemist, and an inventor named Robert Boyle. He was known for the gas laws he created, Boyle’s law, Charle’s law, and Avogadro’s law. Around 1644, when he studied at Geneva, taking natural philosophy, he was able to meet several scientists that made him interested in experiments on the properties of the air and the behavior of the gasses. Because of his deep interest with these experiments, he was able to invent the gas laws.  </li>
-                <li>With his work and his advocacy to experiment the scientific theories that helped modern chemistry. With his invention, he influenced the development of chemistry and the combination of the chemicals.  </li>
+                
               </ul>
             </div>
           </>

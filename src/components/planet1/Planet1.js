@@ -58,7 +58,6 @@ export default function Planets() {
                 <li>•*John Dalton* introduced a new form of the ancient Greek idea of atoms at the beginning of the nineteenth century. He stated that all matter is made up of atoms and that atoms make up elements and compounds. He believed atoms could not be split but that was later disproved</li>
                 <li>•*J.J. Thomson* He observed an experiment using cathode rays in a vacuum to discover the presence of electrons and suggested the plum pudding model of the atom In 1897.</li>
                 <li>•*Ernest Rutherford*  He discovered that atoms are composed of a very dense nucleus with lots of empty space through the gold foil experiment.  His model suggested that electrons orbit the atomic nucleus like planets round the Sun In 1911.</li>
-                <li>•*Bohr* Further electron discovery was done by Neils Bohr where he discovered that electrons are found in orbits through the excitation of electrons and the color of light emitted.  He modified Rutherford's model by introducing the idea of energy levels In 1914.</li>
               </ul>
             </div>
           </>
@@ -86,8 +85,6 @@ export default function Planets() {
                <li>•Basic Elements: Examples include Hydrogen (H), Carbon (C), Oxygen (O), and Gold (Au). Each of these elements has unique atomic properties</li>
                <li>•Diverse Properties: Elements can be metals (like Iron (Fe)), nonmetals (like Nitrogen (N)), or metalloids (like Silicon (Si)). They have varying physical and chemical properties based on their atomic structure.</li>
                <li>•Isotopes: Atoms of the same element can have different numbers of neutrons, resulting in different isotopes. For example, Carbon-12 and Carbon-14 are isotopes of Carbon.</li>
-               <li>Periodic Table: Elements are organized in the periodic table based on their atomic structure, which helps predict their chemical behavior and properties.</li>
-               <li>In outcome, every element is made of atoms, and the variety of elements we encounter in the natural world is due to the diverse arrangements of these atoms and their interactions.</li>
             </ul>
           </div>
           </>
