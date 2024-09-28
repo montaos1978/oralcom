@@ -12,9 +12,9 @@ export default function Planets() {
   const tabButtons = () => {
     return (
       <div className='tabButtons2'>
-        <button onClick={() => tabButtonHandler(0)} type='button'>Particle Nature of Matter</button> 
+        <button onClick={() => tabButtonHandler(0)} type='button'>Particulate Nature of Matter</button> 
         <button onClick={() => tabButtonHandler(1)} type='button'>Phase Change</button>
-        <button onClick={() => tabButtonHandler(2)} type='button'>Subtance and Mixture</button>
+        <button onClick={() => tabButtonHandler(2)} type='button'>Substance and Mixture</button>
         <button onClick={() => tabButtonHandler(3)} type='button'>Elements and Compounds </button>
         <button onClick={() => tabButtonHandler(4)} type='button'>Physical and Chemical Properties of Matter</button>
        
@@ -64,7 +64,7 @@ Microscopic view - particles are far from each other.</li>
 
         {activePlanet === 1 && (
           <>
-            <div className='description_title'>Particle Nature of Matter</div>
+            <div className='description_title'>Particulate Nature of Matter</div>
             <div className='description_list'>
               <ul>
                 <li>• GAS will undergo condensation and turn into a LIQUID if the temperature decreases.</li>
@@ -79,7 +79,7 @@ Ex. water turning into water vapor as it boils.</li>
 
         {activePlanet === 2 && (
           <>
-            <div className='description_title'>Particle Nature of Matter</div>
+            <div className='description_title'>Particulate Nature of Matter</div>
             <div className='description_list'>
               <ul>
                 <li>Substance - Definite or constant composition and distinct properties.
@@ -95,7 +95,7 @@ Mixture - A combination of two or more substances in which the substance retains
         )}
         {activePlanet === 3 && (
           <>
-            <div className='description_title'>Particle Nature of Matter </div>
+            <div className='description_title'>Particulate Nature of Matter </div>
             <div className='description_list'>
               <ul>
                 <li>Elements - The elements that cannot be destroyed into simpler elements by chemical means are constituted of only one type of atom.</li>
@@ -107,7 +107,7 @@ Mixture - A combination of two or more substances in which the substance retains
         )}
         {activePlanet === 4 && (
           <>
-            <div className='description_title'>Particle Nature of Matter</div>
+            <div className='description_title'>Particulate Nature of Matter</div>
             <div className='description_list'>
               <ul>
                 <li>Physical properties of matter - It includes color, hardness, malleability, solubility, electrical conductivity, density, melting point, and boiling point.

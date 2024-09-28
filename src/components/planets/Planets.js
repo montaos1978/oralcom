@@ -171,7 +171,7 @@ export default function Planets() {
   };
 
   return (
-    <div className='planets_section' id='history1'> 
+    <div className='planets_section6' id='history1'> 
       {tabButtons()}
       <div className='main'>
         {leftImages()}

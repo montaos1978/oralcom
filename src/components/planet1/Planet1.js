@@ -11,8 +11,8 @@ export default function Planets() {
 
   const tabButtons = () => {
     return (
-      <div className='tabButtons'>
-        <button onClick={() => tabButtonHandler(0)} type='button'>What is atomic structure</button>
+      <div className='tabButtons6'>
+        <button onClick={() => tabButtonHandler(0)} type='button'>Atomic structure</button>
         <button onClick={() => tabButtonHandler(1)} type='button'>History of the atom</button>
         <button onClick={() => tabButtonHandler(2)} type='button'>Atom</button>
         <button onClick={() => tabButtonHandler(3)} type='button'>Elements</button>

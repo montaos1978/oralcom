@@ -41,7 +41,7 @@ export default function Header() {
 
   return (
     <nav className="header" onMouseLeave={handleMouseLeave}>
-      <div className="logo" onClick={homeHandler} onMouseEnter={() => handleMouseEnter(-1)}>OralComm </div>
+      <div className="logo" onClick={homeHandler} onMouseEnter={() => handleMouseEnter(-1)}>General Chemistry </div>
       <div className="nav_items">
         <div className="nav_item" onMouseEnter={() => handleMouseEnter(0)}><a onClick={homeHandler}>Home</a></div>
         <div className="nav_item" onMouseEnter={() => handleMouseEnter(1)}><a href="#history1">History</a></div>

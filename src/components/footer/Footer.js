@@ -11,7 +11,7 @@ export default function Planets() {
 
   const tabButtons = () => {
     return (
-      <div className='tabButtons'>
+      <div className='tabButtons5'>
         <button onClick={() => tabButtonHandler(0)} type='button'>Video 1</button>
         <button onClick={() => tabButtonHandler(1)} type='button'>Video 2</button>
         
